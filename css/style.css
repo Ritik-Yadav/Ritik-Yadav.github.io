@@ -1,0 +1,43 @@
+.img
+{
+	background-image:url('../img/banner3.jpg');
+/*transform: skew(-5deg);*/
+}
+.hove:hover
+{	
+	opacity:0.7;
+}
+.ho
+{
+	transform: skew(-0deg); 
+	color:#000; 
+	font-size:16px;
+}
+.ho:hover
+{
+	transform: skew(-12deg);
+	color:#000;
+	background-color: red;
+	font-size:16px;
+	border-bottom:3px solid #00CC75;
+}
+.img2
+{
+	background-image:url('../img/banner5.jpg');
+	opacity:1;
+/*transform: skew(-5deg);*/
+}
+.round
+{
+	animation-name: do;
+	position: relative;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes do
+{
+	to
+	{
+	transform: rotate(360deg);
+	}
+}
